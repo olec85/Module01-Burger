@@ -264,6 +264,9 @@ header{
     border: 1px solid #FBB731;
     transition: 0.2s;
 }
+.menu-grid-btn:hover{
+    background-color:#F37335;
+}
 .menu-grid-icon{
     display: block;
     background-image: url(../images/menu/basket.svg);
@@ -282,10 +285,7 @@ header{
     margin-right: 6px;
     text-decoration: none;
 }
-.menu-link:hover{
-    background-color: transparent;
-    color: #F37335;
-}
+
 .footer{
     background: #1E2F40;
     color: #FAF9F9;
@@ -322,9 +322,13 @@ header{
     color: #FAF9F9;
 }
 .footer-list a{
-    color:yellow;
+    color:#DEDEDE;;
     text-decoration: none;
     font-weight: 400;
+}
+.footer-list a:hover{
+    background-color: transparent;
+    color: white;
 }
 .-footer-item span{
     color: #DEDEDE;
@@ -342,6 +346,10 @@ header{
     font-weight: 900;
     font-size: 20px;
     color:white;
+}
+.footer-list-tel a:hover{
+    background-color: transparent;
+    color:yellow;
 }
 .footer-list{
     padding: 0;
