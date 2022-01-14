@@ -18,6 +18,12 @@ header{
     padding-top: 26px;
     padding-bottom: 25px;
 }
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 68.5%;
+}
 .header-logo{
     display: block;
     background-image:url(../images/Logo.svg);
@@ -172,12 +178,17 @@ header{
 }
 .banner-link{
     font-size: 14px;
-    padding: 20px 27px;
+    padding: 18px 25px;
     text-transform: uppercase;
     text-decoration: none;
-    background: #FBB731;
+    background-color: #FBB731;
     border-radius: 5px;
     color: #1E2F40;
+    border: 1px solid #FBB731;
+}
+.banner-link:hover{
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-header{
     display: flex;
@@ -261,7 +272,7 @@ header{
     width: 18px;
     height: 18px;
 }
-.menu-grid-text{
+.menu-link{/*а был меню грид текст*/
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
@@ -269,6 +280,11 @@ header{
     text-transform: uppercase;
     color: #1E2F40;
     margin-right: 6px;
+    text-decoration: none;
+}
+.menu-link:hover{
+    background-color: transparent;
+    color: #F37335;
 }
 .footer{
     background: #1E2F40;
@@ -297,7 +313,7 @@ header{
 .tel ul{
     list-style-type: none;
 }
-.item li{
+.footer-list li{
     margin-bottom: 9px;
     font-family: 'Lato',sans-serif;
     font-size: 15px;
@@ -305,26 +321,29 @@ header{
     line-height: 24px;
     color: #FAF9F9;
 }
-.item a{
-    color:#DEDEDE;
+.footer-list a{
+    color:yellow;
     text-decoration: none;
     font-weight: 400;
 }
-.item span{
+.-footer-item span{
     color: #DEDEDE;
     display: block;
     font-weight: 400;
     margin-bottom: 2px;
 }
-.tel ul{
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 38px;
-    text-transform: uppercase;
-    color: #FBB731;
-    margin-bottom: 2px;
+.footer-list-tel{
     margin-top: 0;
+}
+.footer-list-tel li{
+    margin-bottom: 12px;
+}
+.footer-list-tel a{
+    font-weight: 900;
+    font-size: 20px;
+    color:white;
 }
 .footer-list{
     padding: 0;
-}
+    list-style-type: none;
+}/* почему то поменяв стили за вами у меня лого и телефоны стали выше(почему так произошло????*/
