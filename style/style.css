@@ -302,12 +302,11 @@ header{
     height: 56px;
 }
 .item h2{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 20px;
-    line-height: 38px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 12px;
+    margin-top: 0;
 }
 .item ul,
 .tel ul{
@@ -345,7 +344,7 @@ header{
 .footer-list-tel a{
     font-weight: 900;
     font-size: 20px;
-    color:white;
+    color:#FBB731;
 }
 .footer-list-tel a:hover{
     background-color: transparent;
@@ -354,4 +353,4 @@ header{
 .footer-list{
     padding: 0;
     list-style-type: none;
-}/* почему то поменяв стили за вами у меня лого и телефоны стали выше(почему так произошло????*/
+}
